@@ -5,7 +5,8 @@ html {
 #map {
   width: 90%;
   height: 20rem;
-  border: 1px solid #ccc;
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 25px;
   margin: 2rem auto;
   display: flex;
   justify-content: center;
@@ -16,4 +17,15 @@ html {
 form {
   text-align: center;
   margin: 2rem auto;
+}
+#btn {
+  background-color: rgb(235, 240, 237);
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+#btn:hover {
+  background-color: antiquewhite;
+  box-shadow: inset;
 }
